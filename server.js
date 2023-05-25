@@ -14,6 +14,10 @@ app.get('/caroline', (req,res) => {
     res.send("Hello Caroline Kay Comin!!!! :)")
 });
 
+app.get('/jose', (req,res) => {
+    res.send("Hello Jose Lisandro Machuca!!!! :)")
+});
+
 app.get("/", (req, res)=>{
     
     res.send("Welcome to my backend API! Loser!!!")
