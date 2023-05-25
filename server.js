@@ -6,6 +6,10 @@ app.get("/tyler", (req, res)=>{
     res.send("Hello Tyler! You LOSER!!!")
 })
 
+app.get('/christopher', (req,res) => {
+    res.send("Hello Christopher Keej Vang")
+});
+
 
 app.get("/", (req, res)=>{
     
