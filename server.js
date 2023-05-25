@@ -22,6 +22,10 @@ app.get('/ricky', (req,res) => {
     res.send("Hello Cheemeng 'Ricky' Vang)")
 });
 
+app.get('/bh/:friend', (req,res) => {
+    res.send("Hello from Brother Hamilton to " + req.params["friend"])
+});
+
 app.get("/", (req, res)=>{
     
     res.send("Welcome to my backend API! Loser!!!")
