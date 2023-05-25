@@ -18,6 +18,10 @@ app.get('/jose', (req,res) => {
     res.send("Hello Jose Lisandro Machuca!!!! :)")
 });
 
+app.get('/ricky', (req,res) => {
+    res.send("Hello Cheemeng 'Ricky' Vang)")
+});
+
 app.get("/", (req, res)=>{
     
     res.send("Welcome to my backend API! Loser!!!")
