@@ -23,7 +23,7 @@ app.get('/ricky', (req,res) => {
 });
 
 app.get('/bh/:friend', (req,res) => {
-    res.send("Hello from Brother Hamilton to " + req.params["friend"])
+    res.send("Hello from Brother Hamilton to " + req.params["friend"] + " with id = " + req.query.id + " name = " + req.query.name)
 });
 
 app.get("/", (req, res)=>{
