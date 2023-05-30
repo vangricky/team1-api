@@ -19,7 +19,11 @@ app.get('/jose', (req,res) => {
 });
 
 app.get('/ricky', (req,res) => {
-    res.send("Hello Cheemeng 'Ricky' Vang)")
+    res.send("Hello Cheemeng 'Ricky' Vang")
+});
+
+app.get('/bh/:friend', (req,res) => {
+    res.send("Hello from Brother Hamilton to " + req.params["friend"] + " with id = " + req.query.id + " name = " + req.query.name)
 });
 
 app.get("/", (req, res)=>{
