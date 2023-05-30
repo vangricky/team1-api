@@ -1,5 +1,7 @@
-const response = await fetch('http://localhost:3000/chris');
+it("Should test local host name", async()=>{
+    const response = await fetch('http://localhost:3000/chris');
 
-const name = await response.text();
-
-expect(name).toBe("chris")
+    const name = await response.text();
+    
+    expect(name).toBe("chris")
+})
