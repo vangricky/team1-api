@@ -19,7 +19,7 @@ app.get('/jose', (req,res) => {
 });
 
 app.get('/ricky', (req,res) => {
-    res.send("Hello Cheemeng 'Ricky' Vang)")
+    res.send("Hello Cheemeng 'Ricky' Vang")
 });
 
 app.get('/bh/:friend', (req,res) => {
